@@ -59,7 +59,7 @@ class ColorPickerViewController: UIViewController, UIPickerViewDelegate, UIPicke
         super.viewDidLoad()
         
         colorLabel.text = colors[0]
-        self.view.backgroundColor = UIColor.red
+//        self.view.backgroundColor = UIColor.red
         
         // Do any additional setup after loading the view.
     }
