@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		547535632085217300A23F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547535622085217300A23F85 /* AppDelegate.swift */; };
-		547535652085217300A23F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547535642085217300A23F85 /* ViewController.swift */; };
 		547535682085217300A23F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547535662085217300A23F85 /* Main.storyboard */; };
 		5475356A2085217400A23F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547535692085217400A23F85 /* Assets.xcassets */; };
 		5475356D2085217400A23F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5475356B2085217400A23F85 /* LaunchScreen.storyboard */; };
 		547535782085217500A23F85 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547535772085217500A23F85 /* Color_PickerTests.swift */; };
 		547535832085217500A23F85 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547535822085217500A23F85 /* Color_PickerUITests.swift */; };
+		54753591208521BC00A23F85 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54753590208521BC00A23F85 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		5475355F2085217300A23F85 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		547535622085217300A23F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		547535642085217300A23F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		547535672085217300A23F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		547535692085217400A23F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5475356C2085217400A23F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		5475357E2085217500A23F85 /* Color PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		547535822085217500A23F85 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		547535842085217500A23F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54753590208521BC00A23F85 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				547535622085217300A23F85 /* AppDelegate.swift */,
-				547535642085217300A23F85 /* ViewController.swift */,
+				54753590208521BC00A23F85 /* ColorPickerViewController.swift */,
 				547535662085217300A23F85 /* Main.storyboard */,
 				547535692085217400A23F85 /* Assets.xcassets */,
 				5475356B2085217400A23F85 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547535652085217300A23F85 /* ViewController.swift in Sources */,
+				54753591208521BC00A23F85 /* ColorPickerViewController.swift in Sources */,
 				547535632085217300A23F85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
